@@ -37,7 +37,7 @@ btn.addEventListener("click", function () {
   //randomise through the quotes array
   let random = Math.floor(Math.random() * quotes.length);
 
-  //display the quote and array in string format
+  //displays the quote and array in string format
   quote.innerText = quotes[random].quote;
   person.innerText = quotes[random].person;
 });
